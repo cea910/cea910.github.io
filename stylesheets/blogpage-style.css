@@ -1,0 +1,46 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+  color: white;
+  background-color: darkblue;
+  background-position: center center;
+}
+
+h2 {
+  border-bottom: 2px solid darkgray;
+}
+
+a { 
+  color: white;
+}
+
+p, li { 
+  font-size: 13px;
+  line-height: 30px;
+}
+
+img {
+  float: right;
+  padding: 30px;
+  border: 1px darkgray;
+}
+
+#blogsummary {
+  float: right;
+  font-size: 10px;
+}
+
+#barrett {
+  float: right;
+  height: 200px;
+}
+
+#clare {
+  float: right;
+  background-color: darkgray;
+  padding: 30px;
+  border: 1px darkgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
