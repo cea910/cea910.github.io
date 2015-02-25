@@ -1,23 +1,24 @@
 body {
   width: 1000px;
   margin: 0 auto;
-  font-family: arial, sans-serif;
+  font-family: arial, times;
   color: white;
-  background-color: darkblue;
-  background-position: center center;
+  background-color: slateblue;
+  background-position: center-center;
 }
 
 h2 {
-  border-bottom: 2px solid darkgray;
+  border-bottom: 1px solid darkgray;
 }
 
-a { 
+a {
   color: white;
+  font-family: cursive;
 }
 
-p, li { 
+p, li {
   font-size: 13px;
-  line-height: 30px;
+  font-height: 20px;
 }
 
 img {
