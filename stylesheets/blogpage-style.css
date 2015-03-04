@@ -16,8 +16,8 @@ a {
   font-family: cursive;
 }
 
-p, li {
-  font-size: 13px;
+p, li, th, td {
+  font-size: 14px;
   font-height: 20px;
 }
 
@@ -27,20 +27,16 @@ img {
   border: 1px darkgray;
 }
 
-#blogsummary {
-  float: right;
-  font-size: 10px;
-}
-
 #barrett {
-  float: right;
+  float: left;
   height: 200px;
+  margin-right: 40px;
 }
 
 #clare {
-  float: right;
+  float: left;
   background-color: darkgray;
-  padding: 30px;
+  padding: 60px;
   border: 1px darkgray;
   margin-top: 15px;
   margin-bottom: 15px;
