@@ -9,3 +9,12 @@ body {
 	color: #ff3061;
 	padding-top: 20px;
 }
+
+h2 {
+  color: #3399FF;
+}
+
+ul {
+  font-size: 15px;
+  font-style: italic;
+}
