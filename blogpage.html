@@ -1,52 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog: A Couple Reviews - Blog 1</title>
+  <title>A Couple Reviews: Home</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheets/blogpage-style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- Logo Font -->
+  <link href="http://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- My own styles -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  
+  <style>
+  .fa-birthday-cake { color: red;}
+  </style>
 </head>
+
 <body>
-  <div id="wrapper">
-    <h1>A Couple Reviews</h1>
-    <a href="index.html">Our Home Page!</a>
 
-<div id="blogsummary">
-    <img src="images/purplepig.jpg" height="300" width="400" >
-  </div>
+<!-- Navigation Bar -->
 
-  <div id="barrett">
-    <h2>Barrett</h2>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">A Couple Reviews</a>
+      </div>
 
-    <p>
-      Ehh...a little overpriced. Dessert was the best part! I'd go back again because:
-    </p>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home Page<span class="sr-only">(current)</span></a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://www.twitter.com/acouplereviews"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+          <li><a href="http://www.facebook.com/acouplereviews"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+          <li><a href="http://www.linkedin.com/in/acouplereviews"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          <li><a href="#">My Account <i class="fa fa-birthday-cake"></i>
+        </ul>
+        </a>
+        </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-		 <ul>
-        <li>The service was great</li>
-        <li>The wait wasn't too long</li>
-      </ul>
-  </div>
+<body>
+<div class="container-fluid">
 
-  <div id="clare">
-    <h2>Clare's Review</h2>
-	<p>
-      What I liked and why:
-    </p>
-      <table>
-    <tr>
-      <td>Wine</td>
-      <td>Great Selection!</td>
-    </tr>
-    <tr>
-      <td>Fried Mashed Potatoes</td>
-      <td>Dipping sauce made the dish!</td>
-    </tr>
-    <tr>
-      <td>Greek Cheesecake</td>
-      <td>Best. Dessert. Ever.</td>
-    </tr>
-  </table>
+  <center>
+    <h1>Blog One<small> a restaurant review.</small></h1>
+      <div class="img-responsive">
+      <img class="img-rounded" src="images/purplepigstretch.png" height="250" width="1200">
+  </center>
+      <h2> </h2>
+
+<div class="container"> 
+<div class="row">
+
+<!-- Left Sidebar -->
+
+<div class="col-md-6">
+    <img class="img-circle" src="images/barrettsays.jpg" height="150" width="150">
+    <h2>Barrett Says...</h2>
+    <h4 class="media-body">
+      <p>In at tincidunt nunc. Praesent lacinia erat eu quam gravida, et ullamcorper nisl placerat. Phasellus viverra pulvinar est in congue. Morbi tincidunt mi eu ultrices rutrum. Ut et elementum leo. Mauris vitae ullamcorper mauris, vitae facilisis quam. Sed molestie magna et erat vestibulum consequat. Vestibulum tincidunt auctor libero, vel fringilla ante ultricies efficitur. Proin blandit sapien id augue maximus lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. I'd go back again because:</p>
+      <ul>
+        <li>Morbi tincidunt mi eu ultrices rutrum.</li>
+        <li>Morbi tincidunt mi eu ultrices rutrum.</li>
+        <li>Morbi tincidunt mi eu ultrices rutrum.</li>
+        <li>Morbi tincidunt mi eu ultrices rutrum.</li>
+        <li>Morbi tincidunt mi eu ultrices rutrum.</li>
+      </ul></h4>
 </div>
+
+<!-- Right Sidebar -->
+
+<div class="col-md-6">
+    <img class="img-circle" src="images/claresays.jpg" height="150" width="150">
+    <h2>Clare Says...</h2>
+    <h4 class="media-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend viverra sem. Suspendisse potenti. Nulla non nunc id lacus hendrerit mattis. Mauris non urna consequat tellus commodo sodales eget ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus odio hendrerit ante imperdiet euismod. Aenean hendrerit mauris sit amet tellus ultricies, sit amet venenatis libero posuere. Aliquam congue in ligula nec mattis. Curabitur iaculis dignissim congue. Duis tristique ligula in nisl imperdiet, sit amet auctor lacus finibus. The best parts were:</p></h4>
+      
+      <table class="table table-condensed">
+        <h5><tr>
+          <th>What we ordered</th>
+          <th>Grade</th>
+          <th>Price</th>
+        </th>
+        <tr>
+          <td>Fried Mashed Potatoes</td>
+          <td>A-</td>
+          <td>$12</td>
+        </tr>
+        <tr>
+          <td>Calamari and Beans</td>
+          <td>B</td>
+          <td>$9</td>
+        </tr>        
+        <tr>
+          <td>Greek Cheesecake</td>
+          <td>A+</td>
+          <td>$9</td>
+        </tr>
+      </table></h5>
+</div>
+
+<!-- Form -->
+
+<div class="col-md-3">
+  <h2>Join our newsletter!</h2>
+  <form action = "mailto:chunter2015@kellogg.northwestern.edu" enctype="text/plain" method="get">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input name = "subject" type="text" class="form-control" id="enterName" placeholder="First and Last">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Email</label>
+      <input  name = "body" type="email" class="form-control" id="enterEmail" placeholder="Email">
+    <button type="submit" value = "Send" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+<!-- Footer -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <center>
+        <p> </p>
+        <p>Big thanks to Professor Cohen and <a href="http://getbootstrap.com">Bootstrap</a> for web design help!</p>
+      </center>
+      </div>
+    </div>    
+  </div>  
+</footer>
 
 </body>
 
